@@ -28,6 +28,28 @@ function Header() {
 
       </div>
 
+      {/* search section */}
+      <div className="searchSection right flex items-center justify-center cursor-pointer">
+        <input
+          type="text"
+          autoComplete='off'
+          placeholder='Search...'
+          className='bg-gray-700
+          rounded-2xl
+          font-thin
+          outline-none
+          border-none
+          w-[20rem]
+          text-xl
+          p-2
+          text-white
+          '
+        />
+        <button className='mx-3'>
+          <i className="fa-solid fa-magnifying-glass text-white text-"></i>
+        </button>
+
+      </div>
 
       {/* left side menu */}
       <div className="right flex items-center justify-center">
